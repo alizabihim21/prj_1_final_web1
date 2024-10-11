@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <link rel="stylesheet" href="syles.css">
+    <style>
+        p {
+            color: white;
+            font-size: 40px;
+        }
+
+        body {
+            background-color: black;
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgb(9, 96, 68);
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 70%;
+        }
+
+        input[type=submit] {
+            size: 90px;
+            font-size: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <ul style="text-shadow: 50px;">
+            <p style="text-align: center;font-size: large; color: white; float: left;">StarBox</p>
+            <li><a href="index.html">Home</a></li>
+            <li><a target="_blank" href="taste.html">test your taste</a></li>
+            <li><a target="_blank" href="sources.html">sources</a></li>
+            <a href="index.html"> <img style="width: 60px; height:60px ; float: right;" src="download.png"
+                    alt="iran"></a>
+    </nav>
+    <hr>
+
+
+    <p>what kind of coffee do you want?</p>
+
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="search">
+    </form>
+
+
+</body>
+
+</html>

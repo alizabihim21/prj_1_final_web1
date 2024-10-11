@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>taste</title>
+    <link rel="stylesheet" href="syles.css">
+    <link rel="stylesheet" href="index.html">
+    <style>
+        body,
+        html {
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .bg-img {
+
+            background-image: url("untitled-1.jpg");
+            display: flex;
+            min-height: 890px;
+            max-width: 3000px;
+            ;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        form {
+            font-size: 40px;
+        }
+
+        p.caption,
+        h3.bordermatn {
+            border-style: solid;
+            border-width: 2px;
+            font-size: 20px;
+            border-radius: 9px;
+            margin: 2px;
+            padding: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <ul style="text-shadow: 50px;">
+            <p style="text-align: center;font-size: large; color: white; float: left;">StarBox</p>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><a target="_blank" href="sources.html">sources</a></li>
+            <a href="index.html"> <img style="width: 60px; height:60px ; float: right;" src="download.png"
+                    alt="iran"></a>
+        </ul>
+        <hr>
+    </nav>
+
+    <h3 class="bordermatn" style="color: white;"> how this form works, we decided to upgrade our knowledge about our
+        customers cause we care ,and we are about
+        to claim your favorite items to use theme in our future plans. </h3>
+    <p class="caption" style="color: white;">why? because we are the one who sells caffeine and we should be proud of
+        our customers </p>
+    <div class="bg-img">
+        <form style="color: white;" action="/action_page.php" class="container">
+            <h1>what is your real taste about drinks?</h1>
+            <input type="checkbox" id="i liek coffee" name="ii like coffee" value="i likke coffee">
+            <label for="i like coffee">i like coffee</label><br>
+            <input type="checkbox" id="i liek juice" name="ii like juice" value="i likke juice">
+            <label for="i like juice">i like juice</label><br>
+            <input type="checkbox" id="i liek milk" name="ii like milk" value="i likke milk">
+            <label for="i like coffee">&#129371 i like milk</label><br>
+            <input type="checkbox" id="i liek tea" name="ii like tea" value="i likke tea">
+            <label for="i like coffee">i like tea</label><br>
+            <input type="checkbox" id="i liek any none alcohol drink" name="ii like any none alcohol drink"
+                value="i likke any none alcohol drink">
+            <label for="i like coffee">i like any none alcohol drink</label><br>
+            <h1>what is your gender ?</h1>
+            <input type="radio" id="man" name="man" value="man">
+            <label for="man">Man</label>
+            <input type="radio" id="woman" name="man" value="woman">
+            <label for="woman">Woman</label>
+            <input type="radio" id="prefer" name="prefer" value="prefer">
+            <label for="prefer">prefer not to say</label>
+            <br>
+
+            <input class="submit" type="submit" value="submit">
+
+        </form>
+    </div>
+    <div class=""></div>
+</body>
+
+</html>
